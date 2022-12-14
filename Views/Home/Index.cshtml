@@ -1,0 +1,661 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<br />
+<br />
+
+
+ <div class="content_inicio">
+     <div>
+         <div class="textBox">
+                <h2>Vista-se com o manto do <span> Brasil!</span> <br>Mesmo com seleções <span> gringas!</span></h2>
+                <p>Aqui você encontra todas as camisas das seleções presentes na <span>Copa do Mundo no Catar 2022</span></p> 
+         </div>
+     </div>
+         <div>
+            <img src="~/imagensCamisas/Brasil/CamisaMasculina1.jpg" alt="" id="">
+         </div>
+</div>
+
+<br />
+    <div class="imgs_catar">
+            <img src="~/imagensCamisas/2022_FIFA_World_Cup.png" alt="" id="icon_catar">
+            <img src="~/imagensCamisas/essa.png" alt="" id="td_selec">
+    </div>
+    <br />
+
+
+
+<div class="card_cards">
+    <div class="card_produto"  onclick="openModalbr('dv-modal')">
+        <div class="imagemProduto">
+            <img src="~/imagensCamisas/Brasil/CamisaMasculina1.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Camisas - Seleção -Brasil</p>
+        </div>
+        <div class="preco">
+            <p>R$ 350,00</p>
+        </div>
+    </div>
+
+    <div class="card_produto">
+        <div class="imagemProduto" onclick="openModalalemanha('dv-modal')">
+            <img src="~/imagensCamisas/Alemanha/1.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Camisas - Seleção - Alemanha</p>
+        </div>
+        <div class="preco">
+            <p>R$ 350,00</p>
+        </div>
+    </div>
+
+    <div class="card_produto">
+        <div class="imagemProduto" onclick="openModalarabia('dv-modal')">
+            <img src="~/imagensCamisas/Arabia Saudita/CamisaMasculina1.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Camisas - Seleção - Arabia Saudita</p>
+        </div>
+        <div class="preco">
+            <p>R$ 350,00</p>
+        </div>
+    </div>
+
+    <div class="card_produto">
+        <div class="imagemProduto" onclick="openModaluruguai('dv-modal')">
+            <img src="~/imagensCamisas/Uruguai/CamisaMasculina1.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Camisas - Seleção - Uruguai</p>
+        </div>
+        <div class="preco">
+            <p>R$ 350,00</p>
+        </div>
+    </div>
+
+</div>
+
+<div class="card_cards">
+    <div class="card_produto" onclick="openModalargentina('dv-modal')">
+        <div class="imagemProduto">
+            <img src="~/imagensCamisas/Argentina/CamisaMasculina1.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Camisas - Seleção - Argentina</p>
+        </div>
+        <div class="preco">
+            <p>R$ 350,00</p>
+        </div>
+    </div>
+
+    <div class="card_produto">
+        <div class="imagemProduto" onclick="openModalaustralia('dv-modal')">
+            <img src="~/imagensCamisas/Austrália/CamisaMasculina1.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Camisas - Seleção - Austrália</p>
+        </div>
+        <div class="preco">
+            <p>R$ 350,00</p>
+        </div>
+    </div>
+
+    <div class="card_produto">
+        <div class="imagemProduto" onclick="openModalbelgica('dv-modal')">
+            <img src="~/imagensCamisas/Bélgica/CamisaMasculina1.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Camisas - Seleção - Bélgica</p>
+        </div>
+        <div class="preco">
+            <p>R$ 350,00</p>
+        </div>
+    </div>
+
+    <div class="card_produto">
+        <div class="imagemProduto" onclick="openModalcamaroes('dv-modal')">
+            <img src="~/imagensCamisas/Camarões/CamisaMasculina1.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Camisas - Seleção - Camarões</p>
+        </div>
+        <div class="preco">
+            <p>R$ 350,00</p>
+        </div>
+    </div>
+
+</div>
+
+<div class="card_cards">
+    <div class="card_produto" onclick="openModalcanada('dv-modal')">
+        <div class="imagemProduto">
+            <img src="~/imagensCamisas/Canadá/CamisaMasculina1.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Camisas - Seleção - Canadá</p>
+        </div>
+        <div class="preco">
+            <p>R$ 350,00</p>
+        </div>
+    </div>
+
+    <div class="card_produto">
+        <div class="imagemProduto" onclick="openModalcatar('dv-modal')">
+            <img src="~/imagensCamisas/Catar/CamisaMaculina1.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Camisas - Seleção - Catar</p>
+        </div>
+        <div class="preco">
+            <p>R$ 350,00</p>
+        </div>
+    </div>
+
+    <div class="card_produto">
+        <div class="imagemProduto" onclick="openModalcoreia('dv-modal')">
+            <img src="~/imagensCamisas/Coreia do Sul/CamisaMaculina1.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Camisas - Seleção - Coreia do Sul</p>
+        </div>
+        <div class="preco">
+            <p>R$ 350,00</p>
+        </div>
+    </div>
+
+    <div class="card_produto">
+        <div class="imagemProduto" onclick="openModalcosta('dv-modal')">
+            <img src="~/imagensCamisas/Costa Rica/CamisaMasculina1.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Camisas - Seleção - Costa Rica</p>
+        </div>
+        <div class="preco">
+            <p>R$ 350,00</p>
+        </div>
+    </div>
+
+</div>
+
+<div class="card_cards">
+    <div class="card_produto" onclick="openModalcroacia('dv-modal')">
+        <div class="imagemProduto">
+            <img src="~/imagensCamisas/Croácia/CamisaMasculina1.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Camisas - Seleção - Croácia</p>
+        </div>
+        <div class="preco">
+            <p>R$ 350,00</p>
+        </div>
+    </div>
+
+    <div class="card_produto">
+        <div class="imagemProduto" onclick="openModaldinamarca('dv-modal')">
+            <img src="~/imagensCamisas/Dinamarca/CamisaMasculina1.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Camisas - Seleção - Dinamarca</p>
+        </div>
+        <div class="preco">
+            <p>R$ 350,00</p>
+        </div>
+    </div>
+
+    <div class="card_produto">
+        <div class="imagemProduto" onclick="openModalequador('dv-modal')">
+            <img src="~/imagensCamisas/Equador/CamisaMasculina1.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Camisas - Seleção - Equador</p>
+        </div>
+        <div class="preco">
+            <p>R$ 350,00</p>
+        </div>
+    </div>
+
+    <div class="card_produto">
+        <div class="imagemProduto" onclick="openModalespanha('dv-modal')">
+            <img src="~/imagensCamisas/Espanha/CamisaMasculina1.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Camisas - Seleção - Espanha</p>
+        </div>
+        <div class="preco">
+            <p>R$ 350,00</p>
+        </div>
+    </div>
+
+</div>
+
+<div class="card_cards">
+    <div class="card_produto" onclick="openModaleua('dv-modal')">
+        <div class="imagemProduto">
+            <img src="~/imagensCamisas/EUA/CamisaMasculina.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Camisas - Seleção - EUA</p>
+        </div>
+        <div class="preco">
+            <p>R$ 350,00</p>
+        </div>
+    </div>
+
+    <div class="card_produto">
+        <div class="imagemProduto" onclick="openModalfran('dv-modal')">
+            <img src="~/imagensCamisas/França/CamisaMasculina1.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Camisas - Seleção - França</p>
+        </div>
+        <div class="preco">
+            <p>R$ 350,00</p>
+        </div>
+    </div>
+
+    <div class="card_produto">
+        <div class="imagemProduto" onclick="openModalgana('dv-modal')">
+            <img src="~/imagensCamisas/Gana/CamisaMasculina1.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Camisas - Seleção - Gana</p>
+        </div>
+        <div class="preco">
+            <p>R$ 350,00</p>
+        </div>
+    </div>
+
+    <div class="card_produto">
+        <div class="imagemProduto" onclick="openModalholanda('dv-modal')">
+            <img src="~/imagensCamisas/Holanda/CamisaMasculina1.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Camisas - Seleção - Holanda</p>
+        </div>
+        <div class="preco">
+            <p>R$ 350,00</p>
+        </div>
+    </div>
+
+</div>
+
+<div class="card_cards">
+    <div class="card_produto" onclick="openModalinglaterra('dv-modal')">
+        <div class="imagemProduto">
+            <img src="~/imagensCamisas/Inglaterra/CamisaMasculina1.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Camisas - Seleção - Inglaterra</p>
+        </div>
+        <div class="preco">
+            <p>R$ 350,00</p>
+        </div>
+    </div>
+
+    <div class="card_produto">
+        <div class="imagemProduto" onclick="openModalira('dv-modal')">
+            <img src="~/imagensCamisas/Irã/CamisaMasculina1.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Camisas - Seleção - Irã</p>
+        </div>
+        <div class="preco">
+            <p>R$ 350,00</p>
+        </div>
+    </div>
+
+    <div class="card_produto">
+        <div class="imagemProduto" onclick="openModaljapao('dv-modal')">
+            <img src="~/imagensCamisas/Japão/CamisaMasculina1.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Camisas - Seleção - Japão</p>
+        </div>
+        <div class="preco">
+            <p>R$ 350,00</p>
+        </div>
+    </div>
+
+    <div class="card_produto">
+        <div class="imagemProduto" onclick="openModalmarrocos('dv-modal')">
+            <img src="~/imagensCamisas/Marrocos/CamisaMasculina1.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Camisas - Seleção - Marrocos</p>
+        </div>
+        <div class="preco">
+            <p>R$ 350,00</p>
+        </div>
+    </div>
+
+</div>
+
+<div class="card_cards">
+    <div class="card_produto" onclick="openModalmx('dv-modal')">
+        <div class="imagemProduto">
+            <img src="~/imagensCamisas/México/CamisaMasculina1.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Camisas - Seleção - México</p>
+        </div>
+        <div class="preco">
+            <p>R$ 350,00</p>
+        </div>
+    </div>
+
+    <div class="card_produto" onclick="openModalgales('dv-modal')">
+        <div class="imagemProduto">
+            <img src="~/imagensCamisas/País de Gales/CamisaMasculina1.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Camisas - Seleção - País de Gales</p>
+        </div>
+        <div class="preco">
+            <p>R$ 350,00</p>
+        </div>
+    </div>
+
+    <div class="card_produto">
+        <div class="imagemProduto" onclick="openModalpolonia('dv-modal')">
+            <img src="~/imagensCamisas/Polonia/CamisaMasculina1.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Camisas - Seleção - Polonia</p>
+        </div>
+        <div class="preco">
+            <p>R$ 350,00</p>
+        </div>
+    </div>
+
+    <div class="card_produto" onclick="openModalportugal('dv-modal')">
+        <div class="imagemProduto">
+            <img src="~/imagensCamisas/Portugal/CamisaMasculina1.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Camisas - Seleção - Portugal</p>
+        </div>
+        <div class="preco">
+            <p>R$ 350,00</p>
+        </div>
+    </div>
+
+</div>
+
+<div class="card_cards">
+    <div class="card_produto"> 
+        <div class="imagemProduto" onclick="openModalsengal('dv-modal')">
+            <img src="~/imagensCamisas/Senegal/CamisaMasculina1.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Camisas - Seleção - Senegal</p>
+        </div>
+        <div class="preco">
+            <p>R$ 350,00</p>
+        </div>
+    </div>
+
+    <div class="card_produto">
+        <div class="imagemProduto" onclick="openModalsuica('dv-modal')">
+            <img src="~/imagensCamisas/Suiça/CamisaMasculina1.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Camisas - Seleção - Suiça</p>
+        </div>
+        <div class="preco">
+            <p>R$ 350,00</p>
+        </div>
+    </div>
+
+    <div class="card_produto">
+        <div class="imagemProduto" onclick="openModalservia('dv-modal')">
+            <img src="~/imagensCamisas/Sérvia/CamisaMasculina1.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Camisas - Seleção - Sérvia</p>
+        </div>
+        <div class="preco">
+            <p>R$ 350,00</p>
+        </div>
+    </div>
+
+    <div class="card_produto">
+        <div class="imagemProduto" onclick="openModaltunisia('dv-modal')">
+            <img src="~/imagensCamisas/Tunísia/CamisaMasculina1.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Camisas - Seleção - Tunísia</p>
+        </div>
+        <div class="preco">
+            <p>R$ 350,00</p>
+        </div>
+    </div>
+
+</div>
+
+
+<div id="dv-modal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h1 class="titulo">Seleções</h1>
+            <button class="btn" onclick="closeModal('dv-modal')">X</button>
+
+
+
+        </div>
+
+        <section id="prodetails" class="section-p1">
+            <div class="single-pro-image">
+
+                <div class="aumentaimg-container">
+                    <img src="" id="MainImg" alt="" class="aumentaimg">
+                </div>
+
+                <div class="small-img-group">
+                    <div class="small-img-col">
+                        <img src="~/NovaPasta/camisa_selecao_brasileira.webp" width="100%" class="small-img" alt="" id="img_um">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="~/NovaPasta/reserva12.jpg" width="100%" class="small-img" alt="" id="img_dois">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="~/NovaPasta/reserva2.jpg" width="100%" class="small-img" alt="" id="img_tres">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="~/NovaPasta/reserva3.jpg" width="100%" class="small-img" alt="" id="img_quatro">
+                        
+                    </div>
+                </div>
+
+
+           
+
+            </div>
+
+            <div class="single-pro-details">
+                
+                <h4>Camisas da Copa</h4>
+                <h2>$350.00</h2>
+                <select>
+                    <option>Selecione o tamanho</option>
+                    <option>P</option>
+                    <option>M</option>
+                    <option>G</option>
+                    <option>GG</option>
+                </select>
+
+                <div class="arrumandoRaul">
+
+                    <input type="number" value="1" class="teste2" id="n_de_camisas">
+                    <input type="text" class="texto1" placeholder="Nome na camisa">
+                    <input type="text" class="texto2" placeholder="Nº na camisa">
+                </div>
+
+                <br />
+
+                <h4>Detalhes do produto</h4>
+               <ul>
+                   <li>Camisa 100% poliéster</li>
+                   <li>Logotipo da marca bordado</li>
+                   <li>Logotipo da equipe bordado</li>
+                   <li>Tecnologia anti-suor</li>
+                   <li>Corte padrão para um toque descontraído e tranquilo</li>
+                   <li>Lavável à máquina</li>
+                   <li>Importado</li>
+               </ul> 
+               
+                <button class="btn_comprar" onclick="openModalco('dv-modalco')">Finalizar compra</button>
+            </div>
+        </section>
+    </div>
+</div>
+
+
+
+
+
+<!--modal cadastro-->
+
+<div id="dv-modalcc" class="modalcc">
+    <div class="modal-contentcc">
+        <div class="modal-headercc">
+            <button class="btncc" onclick="closeModalcc('dv-modalcc')">X</button>
+            <h1 class="titulocc">Cadastro</h1>
+
+
+        </div>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+        <div class="modal_container">
+            <div class="madal_cadastro_texto" >
+
+                    <input type="hidden" name="accessKey" value="8629f88f-72ad-4d13-8cbf-805d50159259">
+                    <div>
+                        <h3>Nome:</h3>
+                        <input type="text" class="tamanho_txt" name="nome" />
+                    </div>
+
+                    <div>
+                        <h3>CEP:</h3>
+                        <input type="text" class="tamanho_txt" id="cep" required name="cep"/>
+                    </div>
+
+                    <div>
+                        <h3>Endereço:</h3>
+                        <input type="text" class="tamanho_txt" id="endereco" required name="logradouro"/>
+                    </div>
+                    <div>
+                        <h3>Cidade:</h3>
+                        <input type="text" class="tamanho_txt" id="cidade" required name="cidade"/>
+                    </div>
+                    <div>
+                        <h3>Número:</h3>
+                        <input type="text" class="tamanho_txt" name="complemento"/>
+                    </div>
+            </div>
+            <br />
+            <div class="madal_cadastro_texto">
+                    <div>
+                        <h3>Estado:</h3>
+                        <input type="text" class="tamanho_txt" name="estado" />
+                    </div>
+
+                <div>
+                    <h3>E-mail:</h3>
+                    <input type="text" class="tamanho_txt" name="email"/>
+                </div>
+
+                <div>
+                    <h3>CPF:</h3>
+                    <input type="text" class="tamanho_txt" name="cpf"/>
+                </div>
+
+                <div>
+                    <h3>Telefone:</h3>
+                    <input type="text" class="tamanho_txt" name="telefone"/>
+                </div>
+
+                <div>
+                    <h3>Senha:</h3>
+                    <input type="text" class="tamanho_txt" name="senha"/>
+                </div>
+
+              
+                    <input type="hidden" name="redirectTo" value="https://example.com/contact/success">
+                  
+            </div>
+           
+        </div>
+       
+         <input type="submit" value="Cadastrar" class="btn_cadastro" asp-area="" asp-controller="Login" asp-action="Salvar" />
+        
+        </form>
+        
+        
+
+
+
+
+            <section id="" class="">
+            </section>
+        </div>
+    </div>
+
+
+    <!--MODAL login-->
+<div id="dv-modalll" class="modalll">
+    <div class="modal-contentll">
+        <form method="post">
+            <div class="modal-headerll">
+                <button class="btnll" onclick="closeModalll('dv-modalll')">X</button>
+                <h1 class="tituloll">Login</h1>
+                <br />
+            </div>
+            <div class="center_cadastro">
+                <h3>E-mail:</h3>
+                <input type="text" name="email"/>
+                <br />
+                <h3>Senha:</h3>
+                <input type="number" name="senha" />
+            </div>
+
+            <input type="submit" value="Lpga" class="btn_cadastro" asp-area="" asp-controller="Login" asp-action="Logar" />
+        </form>
+    </div>
+</div>
+
+
+    <!--MODAL Compra-->
+<div id="dv-modalco" class="modalco">
+    <div class="modal-contentco">
+        <div class="modal-headerco">
+            <button class="btnco" onclick="closeModalco('dv-modalco')">X</button>
+            <h1 class="tituloco">Compra</h1>
+            
+        </div>
+        <div class="pagamento_items">
+            <center>
+                <h2 id="qtd_pagar">a</h2>
+                <div class="img_pagar">
+                        <img src="~/imagensCamisas/qr-code.png" width="100%" class="" alt="">
+                    </div>
+              
+            </center>
+        </div>
+
+       
+        <button class="btn_pagar" onclick="closeModalco('dv-modalco')">Pagar</button>
+     
+        
+    </div>
+</div>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://wa.me/5519999540463?text=Adorei%20seu%20artigo" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+  z-index:1000;" target="_blank">
+    <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+</a>
+
+
+

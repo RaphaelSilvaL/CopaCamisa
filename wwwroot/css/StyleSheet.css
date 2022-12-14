@@ -1,0 +1,579 @@
+﻿#prodetails {
+    display: flex;
+    margin-top: 20px;
+}
+
+    #prodetails .single-pro-image {
+        width: 40%;
+        margin-right: 50px;
+    }
+
+.small-img-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+.small-img{
+    max-height:85px;
+   
+}
+
+#prodetails .single-pro-details {
+    width: 50%;
+    padding-top: 30px;
+}
+
+    #prodetails .single-pro-details h4 {
+        padding: 0px 0px 0px 0px;
+    }
+
+    #prodetails .single-pro-details h2 {
+        font-size: 26px;
+    }
+
+    #prodetails .single-pro-details select {
+        display: block;
+        padding: 5px 10px;
+        margin-bottom: 10px;
+    }
+
+    #prodetails .single-pro-details .teste2 {
+        width: 50px;
+        height: 30px;
+        padding-left: 10px;
+        font-size: 16px;
+        margin-right: 10px;
+    }
+
+    #prodetails .single-pro-details .texto1 {
+        width: 135px;
+        height: 17px;
+        padding-left: 2px;
+        font-size: 16px;
+        margin-right: 10px;
+        margin-top: 10px;
+        padding-top: 3px;
+    }
+    #prodetails .single-pro-details .texto2 {
+        width: 105px;
+        height: 17px;
+        padding-left: 2px;
+        padding-top:3px;
+        font-size: 16px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+    #prodetails .single-pro-details input:focus {
+        outline: none;
+    }
+
+    #prodetails .single-pro-details button {
+        margin-top: 1%;
+        padding: 10px 20px;
+        background: #088178;
+        color: #fff;
+    }
+
+    #prodetails .single-pro-details span {
+        line-height: 25px;
+    }
+
+.arrumandoRaul {
+    display: flex;
+}
+
+
+
+/*--------------------------------------------modal--------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    text-align: justify;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #eee;
+    padding: 10px;
+}
+
+.btn {
+    background-color: rgb(33, 156, 70);
+    padding: 5px 10px 5px 10px;
+    border: 2px solid rgb(4, 92, 30);
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 5px;
+    color: #FFF;
+    margin-left: 9%;
+}
+
+    .btn:hover {
+        background-color: rgb(4, 92, 30);
+    }
+
+    .btn:active {
+        background-color: rgb(129, 255, 166);
+        color: rgb(4, 92, 30);
+    }
+
+.modal {
+    background-color: rgba(0, 0, 0, .8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+.btn_comprar {
+    margin-left: 30%;
+}
+
+.modal-content {
+    margin: 0 auto;
+    margin-top: 3%;
+    max-width: 900px;
+    background-color: #eee;
+    padding: 10px;
+    box-shadow: 0 0 2px #fff;
+}
+
+.modal-header h1 {
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.modal-header, .modal-body, .modal-footer {
+    padding: 10px;
+}
+
+.modal-header {
+    background-color: #ccc;
+}
+
+.modal-footer {
+    background-color: #ccc;
+}
+/*modal cadastro*/
+
+p {
+    text-align: justify;
+}
+
+.contentcc {
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #eee;
+    padding: 10px;
+}
+
+.btncc {
+    background-color: rgb(33, 156, 70);
+    padding: 5px 10px 5px 10px;
+    border: 2px solid rgb(4, 92, 30);
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 5px;
+    color: #FFF;
+    margin-left: 97%;
+}
+
+    .btncc:hover {
+        background-color: rgb(4, 92, 30);
+    }
+
+    .btncc:active {
+        background-color: rgb(129, 255, 166);
+        color: rgb(4, 92, 30);
+    }
+
+.modalcc {
+    background-color: rgba(0, 0, 0, .8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+
+.modal-contentcc {
+    margin: 0 auto;
+    margin-top: 3%;
+    max-width:900px;
+    background-color: #eee;
+    padding: 10px;
+    box-shadow: 0 0 2px #fff;
+}
+
+.modal-headercc h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.modal-headercc, .modal-bodycc, .modal-footercc {
+    padding: 10px;
+}
+
+.modal-headercc {
+    background-color: #ccc;
+}
+
+.modal-footercc {
+    background-color: #ccc;
+}
+
+
+.madal_cadastro_texto {
+    display: flex;
+    width:50%;
+    flex-direction:column;
+    
+}
+
+.btn_cadastro {
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+    background-color: rgb(33, 156, 70);
+    margin-left: 43%;
+}
+
+
+.container-img {
+    height: 200px;
+    overflow: hidden;
+    border: 2px solid rgb(119, 5, 68);
+}
+
+    .container-img img {
+        width: 100%;
+        height: 100%;
+        -webkit-transition: -webkit-transform .5s ease;
+        transition: transform .5s ease;
+    }
+
+    .container-img:hover img {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+.aumentaimg-container {
+    height: 80%;
+    width: 100%;
+    overflow: hidden;
+    border: 10px;
+    margin-bottom: 10px;
+    max-height:362px;
+}
+
+    .aumentaimg-container .aumentaimg {
+        width: 100%;
+        height: 100%;
+        -webkit-transition: -webkit-transform .5s ease;
+        transition: transform .5s ease;
+    }
+
+    .aumentaimg-container:hover .aumentaimg {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+
+
+.modal-body {
+    padding-bottom: 20px;
+}
+/*Card*/
+
+.card_produto {
+    padding: 2%;
+    border-color: brown;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 1%;
+}
+
+    .card_produto p {
+        margin: 0px;
+        
+    }
+
+.imagemProduto img {
+    width: 100%;
+    margin: 0px;
+}
+
+.nome p {
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.preco p {
+    margin-top:10px;
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+.card_cards{
+    display:flex;
+}
+
+/* esse é meu css*/
+
+.card_cards img{
+    height:210px;
+    width:210px;
+}
+
+
+.tamanho_txt {
+    width: 400px;
+    padding:10px;
+}
+
+.modal_container{
+    display:flex;
+    flex-direction:row;
+}
+
+/*modal login*/
+p {
+    text-align: justify;
+}
+
+.contentll {
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #eee;
+    padding: 10px;
+}
+
+.btnll {
+    background-color: rgb(33, 156, 70);
+    padding: 5px 10px 5px 10px;
+    border: 2px solid rgb(4, 92, 30);
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 5px;
+    color: #FFF;
+    margin-left: 90%;
+}
+
+    .btnll:hover {
+        background-color: rgb(4, 92, 30);
+    }
+
+    .btnll:active {
+        background-color: rgb(129, 255, 166);
+        color: rgb(4, 92, 30);
+    }
+
+.modalll {
+    background-color: rgba(0, 0, 0, .8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+
+.modal-contentll {
+    margin: 0 auto;
+    margin-top: 3%;
+    max-width: 400px;
+    background-color: #eee;
+    padding: 10px;
+    box-shadow: 0 0 2px #fff;
+}
+
+.modal-headerll h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.modal-header, .modal-bodyll, .modal-footerll {
+    padding: 10px;
+}
+
+.modal-headerll {
+    background-color: #ccc;
+}
+
+.modal-footerll {
+    background-color: #ccc;
+}
+
+.center_cadastro {
+    text-align: center;
+}
+
+.entrar {
+    background-color: rgb(33, 156, 70);
+    padding: 5px 10px 5px 10px;
+    border: 2px solid rgb(4, 92, 30);
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 5px;
+    color: rgb(119, 5, 68);
+    margin-left: 43%;
+    margin-top:10px;
+}
+
+
+/*modal compra*/
+
+p {
+    text-align: justify;
+}
+
+.contentco {
+    margin: 0 auto;
+    max-width: 400px;
+    background-color: #eee;
+    padding: 10px;
+}
+
+.btnco {
+    background-color: rgb(33, 156, 70);
+    padding: 5px 10px 5px 10px;
+    border: 2px solid rgb(4, 92, 30);
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 5px;
+    color: #FFF;
+    margin-left: 90%;
+}
+
+    .btnco:hover {
+        background-color: rgb(4, 92, 30);
+    }
+
+    .btnco:active {
+        background-color: rgb(129, 255, 166);
+        color: rgb(4, 92, 30);
+    }
+
+.modalco {
+    background-color: rgba(0, 0, 0, .8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+
+.modal-contentco {
+    margin: 0 auto;
+    margin-top: 3%;
+    max-width: 400px;
+    background-color: #eee;
+    padding: 10px;
+    box-shadow: 0 0 2px #fff;
+}
+
+.modal-headerco h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.modal-headerco, .modal-bodyco, .modal-footerco {
+    padding: 10px;
+}
+
+.modal-headerco {
+    background-color: #ccc;
+}
+
+.modal-footerco {
+    background-color: #ccc;
+}
+
+.pagamento_items{
+    align-items:center;
+    text-align:center;
+}
+
+.img_pagar{
+    width:250px;
+    height:250px;
+    border:solid;
+}
+
+.btn_pagar {
+    background-color: rgb(33, 156, 70);
+    padding: 5px 10px 5px 10px;
+    margin-top:10px;
+    border: 2px solid rgb(4, 92, 30);
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 5px;
+    color: #FFF;
+    margin-left: 43%;
+}
+
+
+
+/*seja oq deus quiser*/
+
+.content_inicio {
+    width: 100%;
+    align-items: center;
+    margin-left: 4%;
+    display: flex;
+}
+
+    .content_inicio .textBox {
+        position: relative;
+        max-width: 550px;
+    }
+
+        .content_inicio .textBox h2 {
+            color: #333;
+            font-size: 4em;
+            line-height: 1.4em;
+            font-weight: 500;
+        }
+
+            .content_inicio .textBox h2 span {
+                color: yellowgreen;
+                font-size: 1.2em;
+                font-weight: 900;
+            }
+
+        .content_inicio .textBox p span {
+            font-size: 1.2em;
+        }
+
+.imgs_catar{
+    width:100%;
+}
+
+#icon_catar {
+    margin: 10px auto 10px 40%;
+}
+#td_selec {
+    margin: 0px auto 0px 0%;
+}
+
+
+     
+
